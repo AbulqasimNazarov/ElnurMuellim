@@ -1,0 +1,10 @@
+dotnet
+dotnet new
+dotnet new sln --name "{SolutionName}"
+dotnet new console
+
+dotnet run
+
+dotnet add package {packageName}
+
+dotnet test

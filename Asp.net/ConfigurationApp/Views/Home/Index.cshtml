@@ -1,0 +1,19 @@
+﻿@* @inject IConfiguration configuration *@
+@model HomePageSettings
+
+@{
+    @* ViewData["Title"] = "Home Page";
+    var welcomeTagName = configuration["HomePageSettings:TagName"];
+    var welcomeWord = configuration["HomePageSettings:WelcomeWord"];
+    var welcomeHidden = configuration
+        .GetSection("HomePageSettings")
+        .GetSection("Hidden")
+        .Get<bool>(); *@
+}
+
+<div class="text-center">
+    @if(!Model.Hidden) {
+        <@Model.TagName>@Model.WelcomeWord, @ViewBag.Username</@Model.TagName>
+    }
+    <h1 class="display-4">@ViewBag.MaxId</h1>
+</div>

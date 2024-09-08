@@ -1,0 +1,16 @@
+[
+    {
+        "Id": "1fbcbd06-bc6e-499c-9ce6-76039520ee71",
+        "Name": "Elnur",
+        "Surname": "Mustafayev",
+        "AvatarPath": "Assets/Avatars/1fbcbd06-bc6e-499c-9ce6-76039520ee71.jpg",
+        "Fullname": "Elnur Mustafayev"
+    },
+    {
+        "Id": "1076358c-0e2b-46c6-b062-c7e9a4c347e3",
+        "Name": "Bob",
+        "Surname": "Marley",
+        "AvatarPath": "Assets/Avatars/1076358c-0e2b-46c6-b062-c7e9a4c347e3.png",
+        "Fullname": "Bob Marley"
+    }
+]

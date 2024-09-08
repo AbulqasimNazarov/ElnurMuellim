@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "IPhone 15",
+        "Price": 1500,
+        "InStock": true,
+        "Discount": 20
+    },
+    {
+        "Name": "TV remout",
+        "Price": 200,
+        "InStock": false,
+        "Discount": null
+    },
+    {
+        "Name": "JSON File",
+        "Price": null,
+        "InStock": null,
+        "Discount": null
+    },
+    {
+        "Name": "Iphone",
+        "Price": 1900,
+        "InStock": null,
+        "Discount": 10
+    }
+]
